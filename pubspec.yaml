@@ -57,6 +57,7 @@ flutter:
      - assets/filter.svg
      - assets/add.svg
      - assets/dropdown.svg
+     - assets/verified.svg
 
   fonts:
     - family: Montserrat

@@ -14,7 +14,8 @@ class DokumenPage extends StatelessWidget {
     return Column(
       children: [
         buildFilterBox(context),
-        DokumenRow(),
+        GestureDetector
+        (child: DokumenRow()),
       ],
     );
   }
@@ -89,7 +90,8 @@ class DokumenPage extends StatelessWidget {
                 ),
               )
             ],
-          ), 
+          ),
+
         );
   } 
 }
