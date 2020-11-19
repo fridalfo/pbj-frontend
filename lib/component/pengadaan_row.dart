@@ -20,7 +20,7 @@ class PengadaanRow extends StatelessWidget {
         },
         child: AppCard(
           color: Colors.white,
-          height: 100,
+          height : MediaQuery.of(context).size.height/7,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
@@ -37,12 +37,10 @@ class PengadaanRow extends StatelessWidget {
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontFamily: 'MontserratMedium',
-                          fontSize: 14,
                           color: Colors.black,
                         )
                       ),
                       Padding(padding: EdgeInsets.only(top:8.0),),
-                      // Chips()
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children:<Widget> [
@@ -54,7 +52,7 @@ class PengadaanRow extends StatelessWidget {
                                 "Jasa",
                                 style: TextStyle(
                                 fontFamily: "Montserrat",
-                                fontSize: 12,
+                                
                                 color: Colors.black),
                               ),
                             ),
@@ -68,7 +66,7 @@ class PengadaanRow extends StatelessWidget {
                                 "MHAR",
                                 style: TextStyle(
                                 fontFamily: "Montserrat",
-                                fontSize: 12,
+                                
                                 color: Colors.black),
                               ),
                             ),
@@ -82,7 +80,7 @@ class PengadaanRow extends StatelessWidget {
                                 "APO",
                                 style: TextStyle(
                                 fontFamily: "Montserrat",
-                                fontSize: 12,
+                                
                                 color: Colors.black),
                               ),
                             ),
@@ -99,7 +97,7 @@ class PengadaanRow extends StatelessWidget {
                                 "Pra-Pengadaan",
                                 style: TextStyle(
                                 fontFamily: "Montserrat",
-                                fontSize: 12,
+                                
                                 color: Colors.black),
                               ),
                             ),

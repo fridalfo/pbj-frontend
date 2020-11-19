@@ -354,7 +354,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   AppBarCard buildAppBarCard() {
     return AppBarCard(
           color: PbjAppPalette.blue,
-          height :190,
+          height : MediaQuery.of(context).size.height - 500,
           child: SafeArea(
             child: Column(
             mainAxisAlignment: MainAxisAlignment.start,

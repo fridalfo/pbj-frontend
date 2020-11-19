@@ -29,7 +29,7 @@ class AppBarCard extends StatelessWidget {
           image: new AssetImage("assets/bg_appbar.png"),
           fit: BoxFit.cover,
         ),
-        borderRadius: BorderRadius.all(Radius.circular(17)),
+        borderRadius: BorderRadius.only(bottomLeft: Radius.circular(17),bottomRight: Radius.circular(17) ),
         boxShadow: [new BoxShadow(
           color: Color.fromRGBO(54, 159, 255, 0.65),
           offset: new Offset(0, 10),
